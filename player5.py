@@ -12,4 +12,8 @@ for i in range(0,len(s)):
     c=chr(l)
     x=x[:1].replace(x[0],c)+x[1:]
     v=0
-    print(x,end=" ")
+    if(i!=len(s)-1):
+       print(x,end=" ")
+    else:
+        print(x)
+   
