@@ -1,2 +1,2 @@
-n,m=map(int,input().split())
-print(pow(n,m))
+u,v=map(int,input().split())
+print(pow(u,v))
