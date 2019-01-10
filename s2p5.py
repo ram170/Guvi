@@ -1,6 +1,11 @@
 n,m=map(int,input().split())
+x=[]
 for i in range(n+1,m):
-    if(i%2==0 and i!=m-1):
-        print(i,end=" ")
-    elif(i%2==0 and i==m-1):
-        print(i)
+    if(i%2==0):
+        x.append(i)
+for i in range(0,len(x)):
+    if(i!=(len(x)-1)):
+        print(x[i],end=" ")
+    else:
+        print(x[i])
+     
