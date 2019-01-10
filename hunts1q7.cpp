@@ -3,6 +3,7 @@
 
 using namespace std;
 vector<int>v;
+int a[1000000];
 
 int main()
 {
@@ -10,11 +11,14 @@ int main()
     cin>>n;
     for(int i=0;i<n;i++)
     {
-        cin>>x;
-        if(x%2==0 and i%2!=0)
-             v.push_back(x);
-        else if(x%2!=0 and i%2==0)
-                v.push_back(x);
+        cin>>a[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]%2==0 and i%2!=0)
+             v.push_back(a[i]);
+        else if(a[i]%2!=0 and i%2==0)
+                v.push_back(a[i]);
         //cout<<v[i];
     }
     for(int i=0;i<v.size();i++)
