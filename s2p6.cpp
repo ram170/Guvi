@@ -14,13 +14,18 @@ void prime()
 }
 int main()
 {
-    long n,m;
+    long n,m,t=0;
     prime();
     cin>>n>>m;
     for(int i=n+1;i<m;i++)
     {
+        if(t==1)
+            cout<<" ";
         if(a[i])
-            cout<<i<<" ";
+        {
+            cout<<i;
+            t=1;
+        }
     }
 
 }
