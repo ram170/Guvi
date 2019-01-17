@@ -12,7 +12,7 @@ else:
     x=str(x)
     n=a.count(x)
     #print(n)
-    if(n==1):
+    if(n>=1):
         print(x)
         break;
     else:
