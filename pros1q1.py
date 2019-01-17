@@ -16,16 +16,13 @@ for i in range(0,len(t)):
     for j in range(0,n):
         m=l[j]
         #print(m)
-        if(m!=t):
-          #print(s[i],ord(m[i]))
-          if(t[i]==m[i]):
-              s[i]=s[i]^0
-          else:
-              s[i]=s[i]^1
+        #print(s[i],ord(m[i]))
+        if(t[i]==m[i]):
+              s[i]=s[i]+1
 j=0
 #print(s)
 for i in range(0,len(s)):
-    if(s[i]==0):
+    if(s[i]==n):
         print(t[j],end="")
         j+=1
     else:
