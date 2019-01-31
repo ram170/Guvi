@@ -14,7 +14,7 @@ for i in range(n,m):
     print(" ")
     print(t,end="")
    else:
-       print(t,end=" ")
+       print(t,end="")
        u=1
     
  
