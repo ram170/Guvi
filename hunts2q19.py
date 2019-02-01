@@ -9,6 +9,7 @@ for i in range(0,s):
     d=l.count(l[i])
     if(d>=n):
         v.append(l[i])
+v.sort()        
 for i in range(0,len(v)):
     if(i!=len(v)-1):
         print(v[i],end=" ")
