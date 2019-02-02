@@ -11,6 +11,6 @@ for i in range(0,n):
     else:
         u+=1
         t=t+u
-print(t)        
+print(t,end="")        
         
     
