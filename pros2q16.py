@@ -11,6 +11,9 @@ for i in range(0,n):
     else:
         u+=1
         t=t+u
-print(t,end="")        
+if(t<10):        
+ print(t,end=" ")
+else:
+    print(t,end="")
         
     
